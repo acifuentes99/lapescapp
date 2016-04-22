@@ -1,0 +1,12 @@
+body{
+    background-color: #5ea099;
+}
+h1{
+   color: green; 
+}
+#logo{
+   width: 300px; 
+}
+#titulo{
+    font-size: 30px;
+}
