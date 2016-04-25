@@ -1,4 +1,5 @@
 .head{
+    margin-top: 4px;
     height: 40px;
     background-color: #5ea099;
     border-bottom: 1px solid white; 
@@ -261,8 +262,9 @@ h1{
 }
 #logo{
     display: block;
-   width: 400px; 
-   margin: 0 auto 0 auto;
+    margin-top: 8px;
+    width: 400px; 
+    margin: 0 auto 0 auto;
 }
 #titulo{
     font-size: 30px;
