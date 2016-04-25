@@ -262,9 +262,8 @@ h1{
 }
 #logo{
     display: block;
-    margin-top: 8px;
     width: 400px; 
-    margin: 0 auto 0 auto;
+    margin: 8px auto 0 auto;
 }
 #titulo{
     font-size: 30px;
