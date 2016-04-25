@@ -60,15 +60,48 @@ footer #ab{
     right: 10px;
 }
 
-.screen0{
+.container{
     margin: 0 auto;
-    margin-top: auto;
+    width: 80vw;
+    display: block;
+}
+.screen0{
     height: 490px;
     width: 280px;
     background-color: black;
     border-radius: 20px;
     overflow: auto;
+    display: inline-block;
+    float: left;
+    position: absolute;
 }
+#info{
+    height: 490px;
+    margin-left: 300px;
+    position: relative;
+    color: white;
+}
+@media all and (max-width: 660px){
+    .container{
+        margin: 0 auto;
+        display: block;
+       height: 1150px;
+    }
+    .screen0{
+        margin: 0 auto;
+        left: 50%;
+        margin-left: -140px;
+        display: block;
+        
+    }
+    #info{
+        height: 490px;
+        margin-left: 0px;
+        top: 510px;
+    }
+}
+
+
 .screen{
     position: relative;
     margin: 0 auto;
