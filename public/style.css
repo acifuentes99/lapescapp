@@ -1,11 +1,235 @@
+.head{
+    height: 40px;
+    background-color: #5ea099;
+    border-bottom: 1px solid white; 
+}
+footer{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 20px 0 0 0;
+    background-color: rgba(0,0,0,0.67);
+    color: white;
+}
+footer a{
+    color: white;
+    font-size: 14px;
+}
+footer #aa{
+    height: 100px;
+    left: 20px;
+    top: 10px;
+    left: 11px;
+    position: absolute;
+}
+footer #aa img{
+    max-width: 200px;
+}
+footer #ab{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    max-width: 300px;
+    height: 100px;
+}
+.i_b1{
+    position: absolute;
+    height: 40px;
+    left: 10px;
+}
+.i_b2{
+    height: 40px;
+    position: absolute;
+    left: 90px;
+}
+.i_b3{
+    height: 40px;
+    position: absolute;
+   right: 10px;
+}
+#i_photo{
+    position: absolute;
+    top: 45px;
+   right: 0;
+}
+.flecha{
+    position: absolute;
+    bottom: 20px;
+    height: 50px;
+    right: 10px;
+}
+
+.screen0{
+    margin: 0 auto;
+    margin-top: auto;
+    height: 490px;
+    width: 280px;
+    background-color: black;
+    border-radius: 20px;
+    overflow: auto;
+}
+.screen{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 249px;
+    border-radius: 2px;
+}
+
+.screen2{
+    background-color: #5ea099;
+}
+.screen_recetas{
+    color: white;
+    background-color: #5ea099;
+    display: none;
+}
+.screen_recetas2{
+    color: white;
+    background-color: #5ea099;
+    display: none;
+}
+.screen3{
+    background-color: #5ea099;
+    display: none;
+    /*display: block;*/
+}
+.screen4{
+    background-color: white;
+    display: none;
+}
+.screen5{
+    background-color: white;
+    display: none;
+}
+.screen6{
+    background-color: white;
+    display: none;
+}
+.screen7{
+    background-color: white;
+    display: none;
+}
+.screen7v2{
+    background-color: white;
+    display: none;
+}
+
+
+/*
+ * Screen 2
+ * */
+.btn1{
+   width: 50px; 
+   height: 50px; 
+   background-color: red;
+}
+.btn2{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 50px; 
+   height: 50px; 
+   background-color: yellow;
+}
+
+.recet{
+   position: absolute;
+    height: 120px;
+    width: 83px;
+    bottom: 0;
+}
+#i_r1{
+    left: 0;
+}
+#i_r2{
+    left: 83px;
+}
+#i_r3{
+    right: 0;
+}
+
+/* 
+ * Recetas: pantalla 
+ * */
+#content{
+    height: 330px;
+    overflow: auto;
+}
+
+/*
+ * Screen 3 (Pescados)
+ * */
+.pez1{
+    position: absolute;
+    width: auto;
+    height: 25px;
+    top: 320px;
+    left: 180px;
+}
+.pez2{
+    position: absolute;
+    width: auto;
+    height: 40;
+    top: 300px;
+    right: 80px;
+}
+.pez3{
+    position: absolute;
+    width: auto;
+    height: 60px;
+    top: 225px;
+    left: 10px;
+}
+.pez4{
+    position: absolute;
+    width: auto;
+    height: 30px;
+    top: 280px;
+    right: 10px;
+}
+.pez5{
+    position: absolute;
+    width: auto;
+    height: 45px;
+    top: 240px;
+    right: 60px;
+}
+.pez6{
+    position: absolute;
+    width: auto;
+    height: 36px;
+    top: 130px;
+    right: 10px;
+}
+#bars{
+   position: absolute;
+   bottom: 5px;
+   right: 5px;
+   width: 30px; 
+   height: 40px; 
+}
+
+
+/*
+ * Screen 4 (ventana Info Pescados)
+ * */
+
+
 body{
     background-color: #5ea099;
+    min-height: 800px;
+    position: relative;
 }
 h1{
    color: green; 
 }
 #logo{
-   width: 300px; 
+    display: block;
+   width: 400px; 
+   margin: 0 auto 0 auto;
 }
 #titulo{
     font-size: 30px;

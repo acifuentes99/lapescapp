@@ -1,0 +1,138 @@
+/*
+ * 2da parte del CSS (para ordenarse)
+ * */
+
+/*
+ * Parte del "pop_up" en la interfaz
+ * */
+.circle{
+    background-color: rgb(116, 223, 0);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 13px;
+    left: 20px;
+}
+.rep{
+    bottom: 14px;
+    left: 44px;
+    height: 18px;
+    position: absolute;
+}
+
+#popup{
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    height: 200px;
+    width: 215px;
+    display: none;
+}
+#nodisp{
+    position: absolute;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: #5ea099;
+    color: white;
+    font-weight: bold;
+    top: 170px;
+    left: 5px;
+    height: 70px;
+    width: 200px;
+    display: none;
+}
+#nodisp p{
+    left: 5px;
+    position: absolute;
+}
+
+#pop3{
+    max-width: 100%;
+    vertical-align: middle;
+    max-height: 100%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.ico{
+    position: absolute;
+    display: block;
+    height: 25px;
+    bottom: 26px;
+}
+.ic_1{
+    left: 90px;
+}
+.ic_2{
+    left: 121px;
+}
+.ic_3{
+    left: 152px;
+}
+.ic_4{
+    left: 175px;
+}
+.ic_1_{
+    left: 120px;
+    bottom: 10px;
+}
+.ic_2_{
+    left: 151px;
+    bottom: 10px;
+}
+.ic_3_{
+    left: 181px;
+    bottom: 10px;
+}
+.ic_4_{
+    left: 205px;
+    bottom: 10px;
+}
+
+
+/*
+ *  LAS IMAGENES
+ * */
+
+#_100{
+    height: 180px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+#_101{
+    height: 140px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+#_200{
+    height: 180px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+#_201{
+
+}
+#_300{
+    height: 320px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.b410{
+    position: absolute;
+    display: block;
+    height: 11px;
+    top: 82px;
+    left: 180px;
+}
+.b411{
+    position: absolute;
+    display: block;
+    height: 15px;
+    top: 80px;
+    left: 210px;
+    
+}

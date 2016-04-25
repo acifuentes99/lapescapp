@@ -10,12 +10,20 @@ var path = process.cwd();
 
 module.exports = function (app) {
 
-    app.route('/')
+    app.route('/alpha')
     .get(function(req, res) {
-        res.sendFile(process.cwd() + '/public/index.html');
-   
+        res.sendFile(process.cwd() + '/public/alpha.html');
     });
 
+    app.route('/about')
+    .get(function(req, res) {
+        res.sendFile(process.cwd() + '/public/about.html');
+    });
+
+    app.route('/')
+    .get(function(req, res) {
+        res.sendFile(process.cwd() + '/public/app.html');
+    });
 
     app.route('/productor')
     .get(function(req, res) {

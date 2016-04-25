@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>La Pescapp Demo - Chilean Group</title>
+
+<link rel="stylesheet" href="public/bootstrap.min.css">
+<link rel="stylesheet" href="public/style.css">
+<link rel="stylesheet" href="public/style_pt2.css">
+ <script src="public/js/jquery-2.2.3.min.js"></script>
+
+
+    <body>
+        <img id='logo' class='img-responsive' src="public/img/la_pescapp.png" alt="la_pescapp" > 
+        <br>
+        <div id="testdiv"></div>
+
+  <div class="screen0">
+      <div class="screen screen2">
+        <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+        <img id="i_photo" src="public/img/s1/fish_03.png" alt=''>
+        <img id="i_r1" class='recet' src="public/img/s1/fish_05.png" alt=''>
+        <img id="i_r2"  class='recet' src="public/img/s1/fish_06.png" alt=''>
+        <img id="i_r3"  class='recet' src="public/img/s1/fish_07.png" alt=''>
+                <div class="photo"></div>  
+      </div>
+ 
+
+      <div class="screen screen_recetas">
+        <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+        <div id='content'>
+            <h3 id='r_title'></h3>
+            <h4>Ingredientes</h4>
+            <ul id="ingredientes">
+            </ul>
+            <h4>Preparación</h4>
+            <ol id="preparacion">
+            </ol>
+        </div>
+        <img id="flecha1" class="flecha" src="public/img/s3/flecha.png">
+      </div>
+
+      <div class="screen screen_recetas2">
+        <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+        <div id='content'>
+            <h3 id='r_title2'></h3>
+            <h4>Ingredientes</h4>
+            <ul id="ingredientes2">
+            </ul>
+            <h4>Preparación</h4>
+            <ol id="preparacion2">
+            </ol>
+            <img id="flecha2" class="flecha" src="public/img/s3/flecha.png">
+        </div>
+
+      </div>
+
+      <div class="screen screen3">
+          <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+        <img class="pez1" src="public/img/s2/01.png" alt=''>
+        <img class="pez2"  src="public/img/s2/03.png" alt=''>
+        <img class="pez3"  src="public/img/s2/04.png" alt=''>
+        <img class="pez4"  src="public/img/s2/02.png" alt=''>
+        <img class="pez5"  src="public/img/s2/05.png" alt=''>
+        <img class="pez6"  src="public/img/s2/06.png" alt=''>
+        <img id="bars"  src="public/img/s2/bars.png" alt=''>
+        <div id="popup">
+            <img id="pop3" src="public/img/s_float/00.jpg" alt=''>
+            <img src="public/img/s_float/01.png" class="ico ic1 ic_1" alt="">
+            <img src="public/img/s_float/02.png" class="ico ic2 ic_2" alt="">
+            <img src="public/img/s_float/03.png" class="ico ic3 ic_3" alt="">
+            <img src="public/img/s_float/04.png" class="ico ic4 ic_4" alt="">
+        </div>
+        <div id="nodisp">
+            <p>No disponible todavia</p>
+        </div>
+      </div>
+
+      <div class="screen screen4">
+          <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+            <img id="_100" src="public/img/s3/1_00.png" class="" alt="">
+            <img  id="_101" src="public/img/s3/1_01.png" class="" alt="">
+
+            <img src="public/img/s_float/01_.png" class="ico ic1 ic_1_" alt="">
+            <img src="public/img/s_float/02.png" class="ico ic2 ic_2_" alt="">
+            <img src="public/img/s_float/03.png" class="ico ic3 ic_3_" alt="">
+            <img src="public/img/s_float/04.png" class="ico ic4 ic_4_" alt="">
+
+            <img src="public/img/s3/rep_0.png" class="rep">
+            <div class='circle'></div>
+      </div>
+
+      <div class="screen screen5">
+          <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+        <div style="height: 318; overflow: auto;">
+            <img  id="_200" src="public/img/s3/2_00.png" class="" alt="">
+            <img  id="_201"src="public/img/s3/2_01.png" class="" alt="">
+<div style="margin: 5px 0 0 20px; height: 100px;">
+    <h4>Por fuera</h4>
+    <span>Cuerpo largo, piel clara con manchas rojas y es muy gruesa. No tiene escamas.
+        </span>
+    <h4>La carne</h4>
+    <span>Carne clara y consistente. El color es uniforme, a excepción de linea media rojiza.
+
+    </span>
+</div>
+</div>
+            <img src="public/img/s_float/01.png" class="ico ic1 ic_1_" alt="">
+            <img src="public/img/s_float/02_.png" class="ico ic2 ic_2_" alt="">
+            <img src="public/img/s_float/03.png" class="ico ic3 ic_3_" alt="">
+            <img src="public/img/s_float/04.png" class="ico ic4 ic_4_" alt="">
+            <img src="public/img/s3/rep_0.png" class="rep">
+            <div class='circle'></div>
+      </div>
+
+
+      <div class="screen screen6">
+          <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+            <img id='_300' src="public/img/s3/3_00.png" class="" alt="">
+
+            <img src="public/img/s_float/01.png" class="ico ic1 ic_1_" alt="">
+            <img src="public/img/s_float/02.png" class="ico ic2 ic_2_" alt="">
+            <img src="public/img/s_float/03_.png" class="ico ic3 ic_3_" alt="">
+            <img src="public/img/s_float/04.png" class="ico ic4 ic_4_" alt="">
+
+            <img src="public/img/s3/rep_0.png" class="rep">
+            <div class='circle'></div>
+      </div>
+
+      <div class="screen screen7">
+          <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+
+        <img src="public/img/s3/4_00.png" style="height: 60px;" alt="">
+        <img class="b410" src="public/img/s3/4_10.png" alt="">
+        <img class="b411" src="public/img/s3/4_11_.png" alt="">
+
+        <div style="height: 80px;">
+        <img style="width:80px;" src="public/img/s3/4_01.png" alt="">
+        <img src="public/img/s3/4_02.png" style="width:80px;" alt="">
+        <img src="public/img/s3/4_03.png" style="width:80px;" alt="">
+        </div>
+        <div style="height: 80px;"><img src="public/img/s3/4_04.png" style="width:80px;" alt="">
+        <img src="public/img/s3/4_05.png" style="width:80px;" alt="">
+        <img src="public/img/s3/4_06.png" style="width:80px;" alt=""></div>
+        <div style="height: 80px;"><img src="public/img/s3/4_07.png" style="width:80px;" alt="">
+        <img src="public/img/s3/4_08.png" style="width:80px;" alt="">
+        <img src="public/img/s3/4_09.png" style="width:80px;" alt=""></div>
+
+            <img src="public/img/s_float/01.png" class="ico ic1 ic_1_" alt="">
+            <img src="public/img/s_float/02.png" class="ico ic2 ic_2_" alt="">
+            <img src="public/img/s_float/03.png" class="ico ic3 ic_3_" alt="">
+            <img src="public/img/s_float/04_.png" class="ico ic4 ic_4_" alt="">
+
+            <img src="public/img/s3/rep_0.png" class="rep">
+            <div class='circle'></div>
+      </div>
+
+      <div class="screen screen7v2">
+          <div class="head">
+            <img class="i_b1" src="public/img/s1/menu_01.png" alt=''>
+            <img class="i_b2" src="public/img/s1/menu_02.png" alt=''>
+            <img class="i_b3" src="public/img/s1/menu_03.png" alt=''>
+        </div>
+        <img src="public/img/s3/4_00.png" style="height: 60px;" alt="">
+        <img class="b410" src="public/img/s3/4_10_.png" alt="">
+        <img class="b411" src="public/img/s3/4_11.png" alt="">
+
+        <ul id="listado">
+            <li>Caldillo de congrio</li><li>Congrio en salsa verde</li><li class="receta3" style="color: blue;">Congrio con almejas</li><li>Congrio con camarones</li><li>Estofado de congrio</li><li>Congrio frito a lo pobre</li><li>Rissoto de congrio</li><li class="receta4" style="color: blue;">Congrio relleno con champiñones</li><li>Congrio en salsa marina
+           </li>
+        </ul>
+
+        <img src="public/img/s_float/01.png" class="ico ic1 ic_1_" alt="">
+        <img src="public/img/s_float/02.png" class="ico ic2 ic_2_" alt="">
+        <img src="public/img/s_float/03.png" class="ico ic3 ic_3_" alt="">
+        <img src="public/img/s_float/04_.png" class="ico ic4 ic_4_" alt="">
+
+            <img src="public/img/s3/rep_0.png" class="rep" alt=''>
+        <div class='circle'></div>
+      </div>
+
+<div style="margin: 0px auto; position: relative; height: 20px; width: 80px; bottom: 0px; top: 18px; border: 2px solid white; border-radius: 8px;"></div>
+    </div>
+    
+    <footer style="bottom: 0px;">
+        <div id="aa">
+            <span>Proyecto para:</span><br> 
+            <a href="https://fishackathonchile.splashthat.com/">
+                <img src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/216/2169558/assets/330.logotipo-fishackaton.png" class="img-responsive" alt=""></a>
+        </div>
+        <div id="ab">
+            <a href='/about'>Acerca de</a><br>
+            <a href='/'>Demo APP</a><br>
+            <a href='/alpha'>alpha APP</a>
+        </div>
+    </footer>
+
+
+ <script src="public/js/frontend.js"></script>
+   </body>
+</html>
